@@ -1,28 +1,15 @@
 package com.springMvc.pll.entity;
 
+import com.baomidou.mybatisplus.annotations.TableName;
+
 /**
  * Created by longlong.pan on 2016/6/23.
  */
+
 public class User {
     private  String name;
-    private  int id;
-    private  int age;
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+    private  Integer id;
+    private  Integer age;
 
     public String getName() {
         return name;
@@ -32,12 +19,19 @@ public class User {
         this.name = name;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", id=" + id +
-                ", age=" + age +
-                '}';
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }

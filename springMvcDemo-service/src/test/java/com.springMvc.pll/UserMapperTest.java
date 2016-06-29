@@ -1,9 +1,7 @@
 package com.springMvc.pll;
 
 import com.springMvc.pll.entity.Student;
-import com.springMvc.pll.entity.User;
 import com.springMvc.pll.repository.StudentRepository;
-import com.springMvc.pll.repository.UserRepository;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

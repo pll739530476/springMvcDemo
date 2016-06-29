@@ -13,6 +13,9 @@
           <element id="archive" name="springMvcDemo-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="springMvcDemo-service" />
           </element>
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.39" />
+          <element id="library" level="project" name="Maven: tk.mybatis:mapper:3.3.7" />
+          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
           <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus:1.2.16" />
@@ -36,7 +39,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-test:4.1.2.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.3.1" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.39" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.3" />

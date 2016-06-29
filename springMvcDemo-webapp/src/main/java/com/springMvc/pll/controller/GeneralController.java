@@ -1,11 +1,8 @@
 package com.springMvc.pll.controller;
 
-import com.springMvc.pll.entity.User;
 import com.springMvc.pll.service.UserService;
-import com.springMvc.pll.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.test.context.TestPropertySource;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 

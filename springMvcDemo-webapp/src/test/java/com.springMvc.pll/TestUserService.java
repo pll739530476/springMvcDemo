@@ -1,7 +1,6 @@
 package com.springMvc.pll;
 
 import com.alibaba.fastjson.JSON;
-import com.springMvc.pll.entity.User;
 import com.springMvc.pll.service.UserService;
 import org.apache.log4j.Logger;
 import org.junit.Test;
